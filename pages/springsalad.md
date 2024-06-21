@@ -4,6 +4,8 @@ layout: default
 permalink: springsalad
 ---
 
+# SpringSaLaD software
+
 SpringSaLaD [software](https://vcell.org/ssalad) is built with a user-friendly 
 GUI supporting model creation, running simulations, and data collection. 
 It is available for download for Mac, Unix, and Windows platforms.
