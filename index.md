@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# MolClustPy
+# SaLaDpy
 
 ## Python package to characterize the multivalent biomolecular clusters 
 
