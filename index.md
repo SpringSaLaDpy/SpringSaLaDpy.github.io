@@ -4,11 +4,12 @@ layout: default
 
 # SaLaDpy
 
-## Python package to characterize the multivalent biomolecular clusters 
+## Python package to run SpringSaLaD, analyze and vizualize its output 
 
-When the affinities of the individual molecular interactions are relatively weak, multivalent clusters maintain their integrity but allow various molecular compositions ([Mayer et al, 2009](https://jbiol.biomedcentral.com/articles/10.1186/jbiol185)), so multiple simulation runs are required to determine the average behavior of such bimolecular system. <b>MolClustPy</b> is a Python package to perform multiple stochastic simulation runs using NFsim (Network-Free stochastic simulator, [Sneddon et al, 2011](https://pubmed.ncbi.nlm.nih.gov/21186362/)) and characterize distribution of cluster sizes, molecular composition, and bonds across molecular clusters and individual molecules of different types. 
+SaLaDpy is a lightweight command line interface (CLI) for SpringSaLaD. PyBioNetGen comes with a command line entry point and a library of useful functions for the analysis and visualization of SpringSaLaD outputs.
 
-Please note that **NFsim is a non-spatial simulator**, so it does not account for excluded volume and non-physical crosslinking when generating molecular complexes.
+[SpringSaLaD](https://www.ncbi.nlm.nih.gov/pubmed/26840718) is a particle-based, stochastic, simulator presenting molecules as a collection of impenetrable spheres (called “sites”) linked by stiff springs. The sites represent protein binding domains, such as an SH2 domain or a catalytic domain, and each site can be associated with a number of biochemical states, such as “active” or “inactive” for a catalytic domain. 
+
 
 
 ## Graphical Summary
