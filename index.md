@@ -8,7 +8,7 @@ layout: default
 
 SaLaDpy is a lightweight command line interface (CLI) for SpringSaLaD. PyBioNetGen comes with a command line entry point and a library of useful functions for the analysis and visualization of SpringSaLaD outputs.
 
-[SpringSaLaD](https://www.ncbi.nlm.nih.gov/pubmed/26840718) is a particle-based, stochastic, simulator presenting molecules as a collection of impenetrable spheres (called “sites”) linked by stiff springs. The sites represent protein binding domains, such as an SH2 domain or a catalytic domain, and each site can be associated with a number of biochemical states, such as “active” or “inactive” for a catalytic domain. 
+[SpringSaLaD](https://www.ncbi.nlm.nih.gov/pubmed/26840718) is a particle-based, stochastic simulator presenting molecules as a collection of impenetrable spheres (called “sites”) in 3D linked by stiff springs. The sites represent protein binding domains, such as an SH2 domain or a catalytic domain, and each site can be associated with a number of biochemical states, such as “active” or “inactive” for a catalytic domain. 
 
 
 
