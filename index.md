@@ -6,14 +6,20 @@ layout: default
 
 ## Python package to run SpringSaLaD, analyze and vizualize its output 
 
-SaLaDpy is a lightweight command line interface (CLI) for SpringSaLaD. PyBioNetGen comes with a command line entry point and a library of useful functions for the analysis and visualization of SpringSaLaD outputs.
+**SaLaDpy** is a lightweight command line interface (CLI) for [SpringSaLaD](https://www.ncbi.nlm.nih.gov/pubmed/26840718). **SaLaDpy** comes with 
+- a command line entry point to edit and run SpringSald, and 
+- a library of useful functions for the analysis and visualization of SpringSaLaD outputs.
 
-[SpringSaLaD](https://www.ncbi.nlm.nih.gov/pubmed/26840718) is a particle-based, stochastic simulator presenting molecules as a collection of impenetrable spheres (called “sites”) in 3D linked by stiff springs. The sites represent protein binding domains, such as an SH2 domain or a catalytic domain, and each site can be associated with a number of biochemical states, such as “active” or “inactive” for a catalytic domain. 
-
-
+The [SpringSaLaD](https://www.ncbi.nlm.nih.gov/pubmed/26840718) is GUI application that 
+- a particle-based, spatial stochastic simulator for molecules in 3D
+- molecules presented as a collection of impenetrable spheres (called “sites”) in 3D linked by stiff springs.
+<img src="/images/workflow.png">
+- The sites represent protein binding domains, such as an SH2 domain or a catalytic domain,
+- each site can be associated with a number of biochemical states, such as “active” or “inactive” for a catalytic domain.
+- each site has a separate diffusion
+- binding among sites is represented as a formation of a new spring between sites
 
 ## Graphical Summary
-
 
 <img src="/images/workflow.png">
 
