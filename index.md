@@ -45,27 +45,27 @@ SpringSaLaDpy provides customizable screenshots of cluster distribution at reque
 
 ### Timecourses for cluster properties 
   
-SpringSaLaDpy can analyze and plot time plots of:
-- quantities of bound and unbound sites in specific states, within one standard deviation
+SpringSaLaDpy can process simulation results and plot time plots of:
+- quantities of bound and unbound molecules and molecular sites in specific states, within one standard deviation
 - average clusters size (average number of molecules in all molecular complexes)
 - average occupancy (fraction of total molecules in clusters of different sizes).
 <table>
   <tr>
-    <td><a href="images/cluster_distr.png"><img src="images/full_count.png" width=200></a></td>
-    <td><a href="images/av_clust_size.png"><img src="images/av_clust_size.png" width=200></a></td>
-    <td><a href="images/av_clust_occ.png"><img src="images/av_clust_occ.png" width=200></a></td>
+    <td><a href="images/cluster_distr.png"><img src="images/full_count.png" width=250></a></td>
+    <td><a href="images/av_clust_size.png"><img src="images/av_clust_size.png" width=150></a></td>
+    <td><a href="images/av_clust_occ.png"><img src="images/av_clust_occ.png" width=150></a></td>
   </tr>
  </table>
 
 
-### Global properties of clusters
+### Cluster composition at specific timepoints
   
 SpringSaLaDpy will analyze and plot average clusters size and average occupancy (fraction of total molecules in clusters of different sizes, and the the average cluster size among all clusters weighted by number of molecules), as well as binning of clusters by size: here we see the fraction of molecules in small (1-10 molecules), medium (10-100 molecules) and large (more than 100 molecules) clusters.
 <table>
   <tr>
     <td><a href="images/cluster_distr.png"><img src="images/cluster_distr.png" width=200></a></td>
-    <td><a href="images/av_clust_size.png"><img src="images/av_clust_size.png" width=150></a></td>
-    <td><a href="images/av_clust_occ.png"><img src="images/av_clust_occ.png" width=150></a></td>
+    <td><a href="images/clust_comp2.png"><img src="images/clust_comp2.png" width=150></a></td>
+    <td><a href="images/clust_comp.png"><img src="images/clust_comp.png" width=150></a></td>
   </tr>
  </table>
 
