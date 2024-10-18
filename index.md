@@ -13,7 +13,7 @@ layout: default
 The [SpringSaLaD](https://www.ncbi.nlm.nih.gov/pubmed/26840718) is GUI application that 
 - a particle-based, spatial stochastic simulator for molecules in 3D
 - molecules presented as a collection of impenetrable spheres (called “sites”) in 3D linked by stiff springs.
-<img src="/images/Nck.png">
+<img src="/images/Nck.png" width=100>
 - The sites represent protein binding domains, such as an SH2 domain or a catalytic domain,
 - each site can be associated with a number of biochemical states, such as “active” or “inactive” for a catalytic domain.
 - each site has a separate diffusion
@@ -25,7 +25,7 @@ The user selects a SpringSaLaD input file, usually generated with SpringSaLaD GU
 
 From here, the user will pick an analysis function and select arguments for data to analyze (e.g. specific time point during the simulation) and outputs to display (e.g., an argument could be a range over which to display a distribution of cluster sizes). The simulation data are processed and outputs are put into the pyStat folder. Lastly, SpringSaLaDPy uses these pyStat files to make the visualization and display it for the user.
 
-<img src="/images/workflow.png">
+<img src="/images/workflow1.png">
 
 ## Inputs
 
