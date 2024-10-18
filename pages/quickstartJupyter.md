@@ -6,21 +6,9 @@ permalink: quickstartJupyter
 
 # Quickstart Guide
 
-Non-experts in Python are recommended to use the [Jupyter Notebook](https://jupyter.org/). 
+Non-experts in Python are recommended to use the [Jupyter Notebook](https://jupyter.org/) as described in [Installation](installation). 
 
-* Download and install [anaconda distribution](https://www.anaconda.com/products/distribution) 
-
-* Open anaconda promt and type
-
- ```python
-pip install molclustpy
-```
-
-* Create a working directory - /user/Desktop/molclustpy
-
-* Download the [Tutorial_Nephrin_Nck_NWASP.bngl](../notebooks/Tutorial_Nephrin_Nck_NWASP.bngl) file and place it inside your working directory 
-
-* Download the notebook [Tutorial_Nephrin_Nck_NWASP.ipynb](../notebooks/Tutorial_Nephrin_Nck_NWASP.ipynb) and place it inside your working directory 
+* Create a working directory, where you cloned/copied [https://github.com/SpringSaLaDpy/SpringSaLaDpy_demo/](https://github.com/SpringSaLaDpy/SpringSaLaDpy_demo/).
 
 * Navigate to the working directory and launch jupyter notebook by typing
 
@@ -28,10 +16,12 @@ pip install molclustpy
 jupyter notebook &
 ```
 
-* Open the notebook with "File -> Open -> Tutorial_Nephrin_Nck_NWASP.ipynb"
+* Open the notebook with "File -> Open -> analysis.ipynb"
 
-* This notebook [Tutorial_Nephrin_Nck_NWASP.ipynb](https://github.com/achattaraj/MolClustPy/blob/master/Tutorial_Nephrin_Nck_NWASP.ipynb) provides step by step instructions on how to utilize different parts of the package.
+* The notebook [analysis.ipynb](https://github.com/SpringSaLaDpy/SpringSaLaDpy_demo/blob/main/analysis.ipynb) provides step by step instructions on how to use analysis and visualization features of SpringSaLaDpy.
 
-* After clicking on the Run button (the top of the browser window) the content of the cell will be executed, and you can click on the next cell and again click on Run to perform the next actions. You can also do "Cell -> Run All" to execute all the blocks at one go. 
+*  The notebook [simulate.ipynb](https://github.com/SpringSaLaDpy/SpringSaLaDpy_demo/blob/main/simulation.ipynb) provides step by step instructions on how to use simulation features of SpringSaLaDpy.
+
+* Place cursor in the top cell. After clicking on the Run button (the top of the browser window) the content of the cell will be executed, and you can click on the next cell and again click on Run to perform the next actions. You can also do "Cell -> Run All" to execute all the blocks at one go. 
 
 * Change the simulation parameters and visualize the results
