@@ -48,9 +48,9 @@ SpringSaLaDpy provides customizable screenshots of cluster distribution at reque
 SpringSaLaDpy will analyze and plot average clusters size and average occupancy (fraction of total molecules in clusters of different sizes, and the the average cluster size among all clusters weighted by number of molecules), as well as binning of clusters by size: here we see the fraction of molecules in small (1-10 molecules), medium (10-100 molecules) and large (more than 100 molecules) clusters.
 <table>
   <tr>
-    <td><img src="images/cluster_distr.png" width=150></td>
-    <td><img src="images/av_clust_size.png" width=150></td>
-    <td><img src="images/av_clust_occ.png" width=150></td>
+    <td>[<img src="images/cluster_distr.png" width=150>](images/cluster_distr.png)</td>
+    <td>[<img src="images/av_clust_size.png" width=150>](images/av_clust_size.png)</td>
+    <td>[<img src="images/av_clust_occ.png" width=150>](images/av_clust_occ.png)</td>
   </tr>
  </table>
 
