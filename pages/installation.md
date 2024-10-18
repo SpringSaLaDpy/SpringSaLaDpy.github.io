@@ -34,17 +34,16 @@ Installation of SpringSaLaDpy will check for the third-party libraries and insta
 
 ### Copy demo files and Jypyter notebooks
 
-To get the sample files and demo Jupyter notebooks, please download or [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the [repository]https://github.com/SpringSaLaDpy/SpringSaLaDpy_demo.git
+To get the sample files and demo Jupyter notebooks, please download or [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the [https://github.com/SpringSaLaDpy/SpringSaLaDpy_demo.git](https://github.com/SpringSaLaDpy/SpringSaLaDpy_demo.git)
 ```python
 git clone https://github.com/SpringSaLaDpy/SpringSaLaDpy_demo.git
 ```
 
 
 ### Downloading the sopurce code
-The source code may be cloned from the [repository](https://github.com/SpringSaLaDpy/SpringSaLaDpy_package) 
+The source code may be cloned from the [https://github.com/SpringSaLaDpy/SpringSaLaDpy_package](https://github.com/SpringSaLaDpy/SpringSaLaDpy_package) 
 
 
- 
  After download/install, follow the [Start Guide](quickstartJupyter)
  
 
