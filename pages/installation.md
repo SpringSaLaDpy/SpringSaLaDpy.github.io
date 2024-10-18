@@ -32,14 +32,19 @@ pip install SpringSaLaDpy
 Installation of SpringSaLaDpy will check for the third-party libraries and install them in case your machine does not have them.  
 
 
-#### Optional Github clone for source code
+### Copy demo files and Jypyter notebooks
 
-Git users may [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the [repository](https://github.com/SpringSaLaDpy/SpringSaLaDpy_package) using 
+To get the sample files and demo Jupyter notebooks, please download or [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the [repository]https://github.com/SpringSaLaDpy/SpringSaLaDpy_demo.git
 ```python
-git clone [https://github.com/SpringSaLaDpy/SpringSaLaDpy_package](https://github.com/SpringSaLaDpy/SpringSaLaDpy_package)
+git clone https://github.com/SpringSaLaDpy/SpringSaLaDpy_demo.git
 ```
 
+
+### Downloading the sopurce code
+The source code may be cloned from the [repository](https://github.com/SpringSaLaDpy/SpringSaLaDpy_package) 
+
+
  
- After download/install, follow the [Start Guide](https://github.com/SpringSaLaDpy/SpringSaLaDpy_package)
+ After download/install, follow the [Start Guide](quickstartJupyter)
  
 
