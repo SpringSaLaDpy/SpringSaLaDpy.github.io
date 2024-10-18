@@ -2,32 +2,32 @@
 layout: default
 ---
 
-# SaLaDpy
+# SpringSaLaDpy
 
 ## Python package to run SpringSaLaD, analyze and vizualize its output 
 
-**SaLaDpy** is a lightweight command line interface (CLI) for [SpringSaLaD](https://www.ncbi.nlm.nih.gov/pubmed/26840718). **SaLaDpy** comes with 
+**SaLaDpy** is a lightweight command line interface (CLI) for [SpringSaLaD](https://www.ncbi.nlm.nih.gov/pubmed/26840718). **SpringSaLaDpy** comes with 
 - a command line entry point to edit and run SpringSald, and 
 - a library of useful functions for the analysis and visualization of SpringSaLaD outputs.
 
 The [SpringSaLaD](https://www.ncbi.nlm.nih.gov/pubmed/26840718) is GUI application that 
 - a particle-based, spatial stochastic simulator for molecules in 3D
 - molecules presented as a collection of impenetrable spheres (called “sites”) in 3D linked by stiff springs.
-<img src="/images/workflow.png">
+<img src="/images/Nck.png">
 - The sites represent protein binding domains, such as an SH2 domain or a catalytic domain,
 - each site can be associated with a number of biochemical states, such as “active” or “inactive” for a catalytic domain.
 - each site has a separate diffusion
 - binding among sites is represented as a formation of a new spring between sites
 
-## Graphical Summary
+## Workflow
+
+The user selects a SpringSaLaD input file, usually generated with SpringSaLaD GUI. This file can be simulated through SpringSaLaDpy or the SpringSaLaD GUI. Both methods will produce the same simulation results.  SpringSaLaDpy helps to understand and visualize the input file and allows updating initial counts and kinetic rates. In either case, the simulations output a folder of results containing CSV and text data files describing the state of the simulation at each point in time. 
+
+From here, the user will pick an analysis function and select arguments for data to analyze (e.g. specific time point during the simulation) and outputs to display (e.g., an argument could be a range over which to display a distribution of cluster sizes). The simulation data are processed and outputs are put into the pyStat folder. Lastly, SpringSaLaDPy uses these pyStat files to make the visualization and display it for the user.
 
 <img src="/images/workflow.png">
 
-A model needs to be defined in the BioNetGen Language (BNGL). In this example, a tetravalent molecular pair (A4 and B4) is shown where any of the a-sites can bind to any of the b-sites. Once we define the model, we run multiple stochastic runs using NFsim. Molecular clusters (networks) would form in a stochastic way across these runs. We assemble these clusters and analyze average properties like cluster size, composition, binding saturation etc.  
-
-
-
-## Detailed Workflow
+## Inputs
 
 ## Input: rule-based model specification in BioNetGen Language (BNGL) format
 
