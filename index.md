@@ -13,7 +13,7 @@ layout: default
 The [SpringSaLaD](https://www.ncbi.nlm.nih.gov/pubmed/26840718) is GUI application that 
 - a particle-based, spatial stochastic simulator for molecules in 3D
 - molecules presented as a collection of impenetrable spheres (called “sites”) in 3D linked by stiff springs.
-<img src="/images/Nck.png" width=100>
+<img src="/images/Nck.png" width=400>
 - The sites represent protein binding domains, such as an SH2 domain or a catalytic domain,
 - each site can be associated with a number of biochemical states, such as “active” or “inactive” for a catalytic domain.
 - each site has a separate diffusion
