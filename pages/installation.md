@@ -40,7 +40,7 @@ git clone https://github.com/SpringSaLaDpy/SpringSaLaDpy_demo.git
 ```
 
 
-### Downloading the sopurce code
+### Downloading the source code
 The source code may be cloned from the [https://github.com/SpringSaLaDpy/SpringSaLaDpy_package](https://github.com/SpringSaLaDpy/SpringSaLaDpy_package) 
 
 
