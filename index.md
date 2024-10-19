@@ -60,7 +60,7 @@ SpringSaLaDpy can process simulation results and plot time plots of:
 
 ### Cluster composition at specific timepoints
   
-SpringSaLaDpy will analyze and plot average clusters size and average occupancy (fraction of total molecules in clusters of different sizes, and the the average cluster size among all clusters weighted by number of molecules), as well as binning of clusters by size: here we see the fraction of molecules in small (1-10 molecules), medium (10-100 molecules) and large (more than 100 molecules) clusters.
+SpringSaLaDpy can process simulation results and plot cluster distribution at specific time point(s). The first plot shows the fraction of total molecules in the clusters of different sizes: one can see that 14% of all molecules are in clusters of size 4, while the next most popular cluster size 5 accumulates 12%. The next plot demonstrates the distribution of Nck, Nephrin and NWasp  by size: here we see the fraction of molecules in small (1-10 molecules), medium (10-100 molecules) and large (more than 100 molecules) clusters.
 <table>
   <tr>
     <td><a href="images/cluster_distr.png"><img src="images/cluster_distr.png" width=200></a></td>
