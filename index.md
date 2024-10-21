@@ -85,7 +85,7 @@ SpringSaLaDpy computes and plots
   </tr>
     <tr>
     <td><a href="images/rad_gyr2.png"><img src="images/rad_gyr2.png" width=200></a></td>    
-    <td><a href="images/rmass_distr.png"><img src="images/mass_distr.png" width=200></a></td>
+    <td><a href="images/mass_dist.png"><img src="images/mass_dist.png" width=200></a></td>
   </tr>
  </table>
  
