@@ -47,8 +47,8 @@ SpringSaLaDpy provides customizable screenshots of cluster distribution at reque
   
 SpringSaLaDpy can process simulation results and plot time plots of:
 - quantities of bound and unbound molecules and molecular sites in specific states, within one standard deviation
-- average clusters size (average number of molecules in all molecular complexes)
-- average occupancy (fraction of total molecules in clusters of different sizes).
+- average clusters size (total number of molecules divided by the total number of molecular complexes)
+- average cluster occupancy (mean of cluster distribution).
 <table>
   <tr>
     <td><a href="images/cluster_distr.png"><img src="images/full_count.png" width=250></a></td>
@@ -60,7 +60,8 @@ SpringSaLaDpy can process simulation results and plot time plots of:
 
 ### Cluster composition at specific timepoints
   
-SpringSaLaDpy can process simulation results and plot cluster distribution at specific time point(s). The first plot shows the fraction of total molecules in the clusters of different sizes: one can see that 14% of all molecules are in clusters of size 4, while the next most popular cluster size 5 accumulates 12%. The next plot demonstrates the distribution of Nck, Nephrin and NWasp  by size: here we see the fraction of molecules in small (1-10 molecules), medium (10-100 molecules) and large (more than 100 molecules) clusters.
+SpringSaLaDpy can process simulation results and plot cluster distribution at specific time point(s). The first plot shows the fraction of total molecules in the clusters of different sizes: one can see that 14% of all molecules are in clusters of size 4, while the next most popular cluster size 5 accumulates 12%. The next plot demonstrates the distribution of Nck, Nephrin and NWasp  by size: 
+here we see the fraction of molecules in small (1-10 molecules), medium (10-100 molecules) and large (more than 100 molecules) clusters.
 <table>
   <tr>
     <td><a href="images/cluster_distr.png"><img src="images/cluster_distr.png" width=200></a></td>
@@ -70,17 +71,21 @@ SpringSaLaDpy can process simulation results and plot cluster distribution at sp
  </table>
 
 ### Change of spatial properties of clusters over time
+SpringSaLaDpy computes and plots 
+- the radius of gyration (a key parameter that describes the spatial conformation of a molecular cluster, computed as a root mean square distance of all sites to its center of mass).
+- Cluster size (the number of constituent molecules in a given cluster, at each time point maximal, minimum and average number of molecules in all clusters is plotted)
+- Cluster radius (the maximum distance between a site and its cluster’s center of mass).
+- Variations in mass coefficients defining distribution of mass, computed as a radius of gyration / maximum radius for a given cluster. For comparison, mass coefficient of a thin spherical shell (where all
+  mass is at the periphery) is close to 1, mass coefficient for a solid sphere is square root of 3/5, and if all mass is concentrated in the center then the mass coefficient is 0). One can see that some clusters (in green) demonstrate properties of a solid sphere, while majority of clusters have more mass towards its center.
 
 <table>
   <tr>
     <td><a href="images/clust_rad2.png"><img src="images/clust_rad2.png" width=200></a></td>
     <td><a href="images/clust_size2.png"><img src="images/clust_size2.png" width=200></a></td>
-    <td><a href="images/rad_gyr2.png"><img src="images/rad_gyr2.png" width=200></a></td>
   </tr>
     <tr>
-    <td><a href="images/clust_rad2.png"><img src="images/clust_rad2.png" width=200></a></td>
-    <td><a href="images/clust_size2.png"><img src="images/clust_size2.png" width=200></a></td>
-    <td><a href="images/rad_gyr2.png"><img src="images/rad_gyr2.png" width=200></a></td>
+    <td><a href="images/rad_gyr2.png"><img src="images/rad_gyr2.png" width=200></a></td>    
+    <td><a href="images/rmass_distr.png"><img src="images/mass_distr.png" width=200></a></td>
   </tr>
  </table>
  
