@@ -80,12 +80,12 @@ SpringSaLaDpy computes and plots
 
 <table>
   <tr>
-    <td><a href="images/clust_rad2.png"><img src="images/clust_rad2.png" width=200></a></td>
-    <td><a href="images/clust_size2.png"><img src="images/clust_size2.png" width=200></a></td>
+    <td><a href="images/clust_rad2.png"><img src="images/clust_rad2.png" width=250></a></td>
+    <td><a href="images/clust_size2.png"><img src="images/clust_size2.png" width=250></a></td>
   </tr>
     <tr>
-    <td><a href="images/rad_gyr2.png"><img src="images/rad_gyr2.png" width=200></a></td>    
-    <td><a href="images/mass_dist.png"><img src="images/mass_dist.png" width=200></a></td>
+    <td><a href="images/rad_gyr2.png"><img src="images/rad_gyr2.png" width=250></a></td>    
+    <td><a href="images/mass_dist.png"><img src="images/mass_dist.png" width=250></a></td>
   </tr>
  </table>
  
