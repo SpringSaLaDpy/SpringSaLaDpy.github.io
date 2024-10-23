@@ -16,7 +16,6 @@ SpringSaLaD is:
 
 * a particle-based, spatial stochastic simulator for molecules in 3D
 molecules presented as a collection of impenetrable spheres (called “sites”) in 3D linked by stiff springs.
-
 * The sites represent protein binding domains, such as an SH2 domain or a catalytic domain,
 each site can be associated with a number of biochemical states, such as “active” or “inactive” for a catalytic domain.
 * each site has a separate diffusion
