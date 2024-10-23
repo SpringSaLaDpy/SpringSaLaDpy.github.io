@@ -14,10 +14,10 @@ with further enhancements by Joe Massison.
 [Michael Blinov](https://health.uconn.edu/blinov-lab/) by [Harrison Perone](https://github.com/Hlpred).
 
 * The original Python code to process SpringSaLaD output files and compute cluster composition and 
-average cluster occupancy were written by Aniruddha Chattaraj and used in 
+average cluster occupancy were written by [Aniruddha Chattaraj[(https://github.com/achattaraj) and used in 
 several publivations([Chattaraj et al., 2024](https://pubmed.ncbi.nlm.nih.gov/39046778/); 
-[Chattaraj & Loew, 2023](https://pubmed.ncbi.nlm.nih.gov/36987392/);
-[Chattaraj, Blinov & Loew, 2021](https://pubmed.ncbi.nlm.nih.gov/34236318/);
+[Chattaraj & Loew, 2023](https://pubmed.ncbi.nlm.nih.gov/36987392/); 
+[Chattaraj, Blinov & Loew, 2021](https://pubmed.ncbi.nlm.nih.gov/34236318/); 
 [Chattaraj, Youngstrom & Loew, 2019](https://pubmed.ncbi.nlm.nih.gov/30661665/)).
 
 * Some features of this code were used in [MolClustPy](http://molclustpy.github.io) software 
