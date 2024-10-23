@@ -3,44 +3,32 @@ title: Publications
 layout: default
 permalink: publications
 ---
-# Citation #
+<!--# Citation #
 **If you find MolClustPy useful, please cite** 
 * Chattaraj, A., I. Nalagandla, L. M. Loew and M. L. Blinov, MolClustPy: A Python Package to Characterize Multivalent Biomolecular Clusters. Bioinformatics, 2023: p. btad385. [Publication Link](https://academic.oup.com/bioinformatics/article/39/6/btad385/7199581)
+-->
+
+### SpringSaLaD and rule-based modeling
+
+* Michalski PJ, Loew LM. SpringSaLaD: a spatial, particle-based biochemical simulation platform with excluded volume. Biophysical journal. 2016 Feb 2;110(3):523-9. [PMID:26840718](https://pubmed.ncbi.nlm.nih.gov/26840718/)
+  
+* Masison J, Michalski PJ, Loew LM, Schuyler AD. mol2sphere: spherical decomposition of multi-domain molecules for visualization and coarse grained spatial modeling. Bioinformatics. 2018 Nov 15;34(22):3948-50. [PMID:29931043](https://pubmed.ncbi.nlm.nih.gov/29931043/)
+
+* Hlavacek WS, Faeder JR, Blinov ML, Posner RG, Hucka M, Fontana W. Rules for modeling signal-transduction systems. Science's STKE. 2006 Jul 18;2006(344):re6-. [PMID:16849649](https://pubmed.ncbi.nlm.nih.gov/16849649/)
+  
+
+### Biological studies where SpringSaLaD and described post-processing were used
+
+* Chattaraj A, Baltaci Z, Chung S, Mayer BJ, Loew LM, Ditlev JA. Measurement of solubility product reveals the interplay of oligomerization and self-association for defining condensate formation. Molecular Biology of the Cell. 2024 Sep 1;35(9):ar122. [PMID:39046778]([https://pubmed.ncbi.nlm.nih.gov/34236318/](https://pubmed.ncbi.nlm.nih.gov/39046778/)
+
+* Chattaraj, A. and L.M. Loew, The maximum solubility product marks the threshold for condensation of multivalent biomolecules. Biophysical Journal, 2023. 122(9): p. 1678-1690. [PMID:36987392](https://pubmed.ncbi.nlm.nih.gov/36987392/)
+
+* Chattaraj, A., M.L. Blinov, and L.M. Loew, The solubility product extends the buffering concept to heterotypic biomolecular condensates. eLife, 2021. 10: p. e67176. [PMID:34236318](https://pubmed.ncbi.nlm.nih.gov/34236318/)
+
+* Chattaraj A, Youngstrom M, Loew LM. The interplay of structural and cellular biophysics controls clustering of multivalent molecules. Biophysical Journal. 2019 Feb 5;116(3):560-72. [PMID:30661665](https://pubmed.ncbi.nlm.nih.gov/30661665/)
 
 
-### Biological studies where the package was applied
-
-
-**Analysis of multivalent biomolecular clustering, similar to Nephrin-Nck-NWASP** 
-
-* Chattaraj, A., M.L. Blinov, and L.M. Loew, The solubility product extends the buffering concept to heterotypic biomolecular condensates. eLife, 2021. 10: p. e67176. [PubMed Link](https://pubmed.ncbi.nlm.nih.gov/34236318/)
-
-* Chattaraj, A. and L.M. Loew, The maximum solubility product marks the threshold for condensation of multivalent biomolecules. Biophysical Journal, 2023. 122(9): p. 1678-1690. [PubMed Link](https://pubmed.ncbi.nlm.nih.gov/36987392/)
-
-### Theoretical background
-
-#### Rule-based modeling and BioNetGen
-
-* Faeder, J. R., Blinov, M. L., & Hlavacek, W. S. (2009). Rule-based modeling of biochemical systems with BioNetGen. In Systems biology (pp. 113-167). Humana Press. [PubMed Link](https://pubmed.ncbi.nlm.nih.gov/19399430/)
-
-* Harris, L.A., et al., BioNetGen 2.2: advances in rule-based modeling. Bioinformatics, 2016. 32(21): p. 3366-3368. [PubMed Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5079481/)
-
-* Yang, J., et al., Kinetic Monte Carlo method for rule-based modeling of biochemical networks. Physical Review E, 2008. 78(3): p. 031910. [PubMed Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2652652/)
-
-* Sneddon, M.W., J.R. Faeder, and T. Emonet, Efficient modeling, simulation and coarse-graining of biological complexity with NFsim. Nat Methods, 2011. 8(2): p. 177-83. [PubMed Link](https://pubmed.ncbi.nlm.nih.gov/21186362/)
-
-* Andrews, S.S., Rule-Based Modeling Using Wildcards in the Smoldyn Simulator. Methods Mol Biol, 2019. 1945: p. 179-202. [PubMed Link](https://pubmed.ncbi.nlm.nih.gov/30945247/)
-
-#### Rule-based modeling with Virtual Cell
-
-* Schaff, J. C., Vasilescu, D., Moraru, I. I., Loew, L. M., & Blinov, M. L. (2016). Rule-based modeling with Virtual Cell. Bioinformatics, 32(18), 2880-2882. [PubMed Link](https://pubmed.ncbi.nlm.nih.gov/27497444/)
-
-* Blinov, M.L., et al., Compartmental and Spatial Rule-Based Modeling with Virtual Cell. Biophys J, 2017. 113(7): p. 1365-1372.[PubMed Link](https://pubmed.ncbi.nlm.nih.gov/28978431/)
-
-* Moraru, I. I., Schaff, J. C., Slepchenko, B. M., Blinov, M. L., Morgan, F., Lakshminarayana, A., ... & Loew, L. M. (2008). Virtual Cell modelling and simulation software environment. IET systems biology, 2(5), 352-362. [PubMed Link](https://pubmed.ncbi.nlm.nih.gov/19045830/)
-
-
-#### Clustering of multivalent proteins 
+### Clustering of multivalent proteins 
 
 * Mayer, B. J., Blinov, M. L., & Loew, L. M. (2009). Molecular machines or pleiomorphic ensembles: signaling complexes revisited. Journal of biology, 8(9), 1-8. 
 
@@ -63,8 +51,4 @@ permalink: publications
 * Marquez-Lago, T.T. and S. Steinberg, Stochastic model of ERK-mediated progesterone receptor translocation, clustering and transcriptional activity. Sci Rep, 2022. 12(1): p. 11791.
 
 * Wollman, A.J.M., et al., Critical roles for EGFR and EGFR-HER2 clusters in EGF binding of SW620 human carcinoma cells. J R Soc Interface, 2022. 19(190): p. 20220088.
-
-
-  
-
 
