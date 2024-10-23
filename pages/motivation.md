@@ -11,14 +11,10 @@ permalink: motivation
 
 Since clustering of multivalent biomolecules underlies the condensate formation, characterizing the physical properties of these clusters has become a major aspect in recent biophysical research. For example, size and composition of the condensates have important consequences in cell signaling ([Su 2016](https://pubmed.ncbi.nlm.nih.gov/27056844/), [Case 2019](https://pubmed.ncbi.nlm.nih.gov/30846599/)). 
 
+One well-characterized multivalent system is Nephrin, Nck and NWASP ([Li 2012](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3343696/), [Banjade 2014](https://elifesciences.org/articles/04123)), which form large molecular complexes both in-vitro and in-vivo. 
 
-<img src="../images/updated_motivation_fig01.png" width=300>
+<img src="../images/NNW-clust.png" width=400>
 
-
-Molecular clustering shows a switch-like behavior ([phase transition](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3343696/)) in a concentration dependent manner ( [Chattaraj 2021](https://elifesciences.org/articles/67176), [Chattaraj 2023](https://www.biorxiv.org/content/10.1101/2022.10.04.510809v1)). Below a threshold concentration, molecules remain in monomeric and small oligomeric state (left panel, dispersed state) that will manifest as a single homogeneous phase. Upon crossing the threshold, system tends to form really large clusters (right panel, condensed state). The co-existence of large clusters along with small clusters result in a spliting of the system into two distinct phases (dense and dilute). The dense phase (large clusters) assumes the role of the condensate in different biological contexts. Also, the phase transition can be reversed by changing the post-translational modification state. Thus studying these clustering processes provide crucial mechanistic understanding of cell biology.
-
-
-One well-characterized multivalent system is Nephrin, Nck and NWASP ([Li 2012](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3343696/), [Banjade 2014](https://elifesciences.org/articles/04123)), which undergoes phase transition (see below, left panel) both in-vitro and in-vivo. 
 Using SpringSaLaDpy, we demonstrate the essential aspects of biomolecular clustering: the cluster size distributions, distance from the membrane, cluster size and radius of gyration over time, etc. 
 
 <table>
