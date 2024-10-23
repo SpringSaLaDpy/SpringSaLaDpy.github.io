@@ -15,7 +15,7 @@ with further enhancements by Joe Massison.
 
 * The original Python code to process SpringSaLaD output files and compute cluster composition and 
 average cluster occupancy were written by [Aniruddha Chattaraj[(https://github.com/achattaraj) and used in 
-several publivations([Chattaraj et al., 2024](https://pubmed.ncbi.nlm.nih.gov/39046778/); 
+several publivations ([Chattaraj et al., 2024](https://pubmed.ncbi.nlm.nih.gov/39046778/); 
 [Chattaraj & Loew, 2023](https://pubmed.ncbi.nlm.nih.gov/36987392/); 
 [Chattaraj, Blinov & Loew, 2021](https://pubmed.ncbi.nlm.nih.gov/34236318/); 
 [Chattaraj, Youngstrom & Loew, 2019](https://pubmed.ncbi.nlm.nih.gov/30661665/)).
