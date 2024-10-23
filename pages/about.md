@@ -10,6 +10,9 @@ permalink: about
 [Leslie Loew](https://facultydirectory.uchc.edu/profile?profileId=Loew-Leslie) by Paul Michalski, 
 with further enhancements by Joe Massison.
 
+* SpringSaLaDpy was designed and implemented in the lab of 
+[Michael Blinov](https://health.uconn.edu/blinov-lab/) by [Harrison Perone](https://github.com/Hlpred).
+
 * The original Python code to process SpringSaLaD output files and compute cluster composition and 
 average cluster occupancy were written by Aniruddha Chattaraj and used in 
 several publivations([Chattaraj et al., 2024](https://pubmed.ncbi.nlm.nih.gov/39046778/); 
@@ -19,9 +22,6 @@ several publivations([Chattaraj et al., 2024](https://pubmed.ncbi.nlm.nih.gov/39
 
 * Some features of this code were used in [MolClustPy](http://molclustpy.github.io) software 
 that analyzed clusters simulated by [NFsim](https://michaelsneddon.net/nfsim/).
-
-* The additional features were added by Harrison Perone under supervision of 
-[Michael Blinov](https://health.uconn.edu/blinov-lab/).
 
 * CONTACT: [Michael Blinov](blinov@uchc.edu)
 
