@@ -41,11 +41,19 @@ If the model was previously simulated, SpringSaLaDpy provides customizable scree
 
 ### Cluster composition at specific timepoints
   
-SpringSaLaDpy can process simulation results and plot cluster distribution at specific time point(s). The first plot shows the fraction of total molecules in the clusters of different sizes: one can see that 14% of all molecules are in clusters of size 4, while the next most popular cluster size 5 accumulates 12%. Note the dashed vertical line - it is the mean of the distribution, callesd **average cluster occupancy**. The next plot demonstrates the cluster composition - distribution of Nck, Nephrin and NWasp in clusters of different size. One can zoom in on specific clusters. 
-*here we see the fraction of molecules in small (1-10 molecules), medium (10-100 molecules) and large (more than 100 molecules) clusters.*
+SpringSaLaDpy can process simulation results and plot cluster distribution at specific time point(s). The first plot shows the fraction of total molecules in the clusters of different sizes: one can see that 14% of all molecules are in clusters of size 4, while the next most popular cluster size 5 accumulates 12%. Note the dashed vertical line - it is the mean of the distribution, callesd **average cluster occupancy**. The next plot demonstrated the fraction of molecules in monomers and dimers (1-2 molecules), small clusters (2-3 molecules), and relatively large (more than 3 molecules) clusters.
 <table>
   <tr>
-    <td><a href="images/cluster_distr.png"><img src="images/cluster_distr.png" width=200></a></td>
+    <td><a href="images/cluster_distr.png"><img src="images/cluster_distr.png" width=250></a></td>
+    <td><a href="images/binned_cluster.png"><img src="images/binned_cluster.png" width=250></a></td>
+  </tr>
+ </table>
+
+### Cluster properties of specific molecules
+
+ The next plot demonstrates the cluster composition - distribution of Nck, Nephrin and NWasp in clusters of different size. One can zoom in on specific clusters. 
+<table>
+  <tr>
     <td><a href="images/clust_comp.png"><img src="images/clust_comp.png" width=190></a></td>
     <td><a href="images/clust_comp2.png"><img src="images/clust_comp2.png" width=190></a></td>
   </tr>
