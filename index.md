@@ -80,8 +80,8 @@ SpringSaLaDpy computes and plots
 - Cluster radius (the maximum distance between a site and its cluster’s center of mass).
 - Variations in mass coefficients defining distribution of mass, computed as a radius of gyration / maximum radius for a given cluster. For comparison, mass coefficient of a thin spherical shell (where all
   mass is at the periphery) is close to 1, mass coefficient for a solid sphere is square root of 3/5, and if all mass is concentrated in the center then the mass coefficient is 0). One can see that some clusters (in green) demonstrate properties of a solid sphere, while majority of clusters have more mass towards its center.
-  - Radius of gyration of various clusters, depending on the size of the clusters. One can see that for larger clusters radius of gyration is becoming linearly larger.
-  - Average distance of center of mass of identical molecules to the membrane. One can see that Nephrin is bound to the membrane and stays close to it. Meanwhile, as Nck and NWasp are recruited by Nephrin, their center of mass is becoming closer to the membrane.
+- Radius of gyration of various clusters, depending on the size of the clusters. One can see that for larger clusters radius of gyration is becoming linearly larger.
+- Average distance of center of mass of identical molecules to the membrane. One can see that Nephrin is bound to the membrane and stays close to it. Meanwhile, as Nck and NWasp are recruited by Nephrin, their center of mass is becoming closer to the membrane.
 
 <table>
   <tr>
@@ -103,9 +103,7 @@ SpringSaLaDpy computes and plots
 SpringSaLaDpy will analyze and plot the frequency of molecules in clusters with a given number of bonds.
 - The histogram demonstrates the fraction of NWASP moledules that have a certain number of sites being bound. One can see that 45% of all NWASP molecules have 5 bonds, while 22% of MWASP are fully saturated (6 out of 6 sites are bound).
 - The middle plot demonstrate the bound fraction (bound sites / free sites) of sites bound in clusters of all sizes. One can see that most frequently (25%) clusters have 60% of sites being bound, with no clusters having all sites bound, and only 5% of clusters being almost saturated with 90% of sites being bound.
-- The plot on the right is a scatter plot, where each point is a set of clusters of a given size and bound fraction. The color of each point corresponds to the frequency of this cluster type. One can see that the most frequent cluster 
-
-Histogram demonstrates that almost 48% of all molecules have very weak connectivity (one bond), while there are few molecules that serve as hubs with 3, 4, 5 or even 6 (there are NWasp molecules) bonds. An average molecule has 1.75 bonds. On the right the same cluster distribution is plotted as bound fraction of molecules per cluster size. One can see that large clusters tend to be unique (red dots) while small clusters come in a variety of compositions. What is more important, the bound fraction converges to a fixed value for larger clusters, meansing binding sites are saturated up to 42% maximum.
+- The plot on the right is a scatter plot, where each point is a set of clusters of a given size and bound fraction. The color of each point corresponds to the frequency of this cluster type. One can see that large clusters tend to be unique (red dots) while small clusters come in a variety of compositions. The bound fraction converges to a fixed value for larger clusters, meaning binding sites are saturated up to 42% maximum.
 <table>
   <tr>
    <td><img src="images/bond_per_nwasp.png" width=250></td>
