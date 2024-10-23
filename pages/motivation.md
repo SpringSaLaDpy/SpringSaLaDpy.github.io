@@ -13,7 +13,7 @@ Since clustering of multivalent biomolecules underlies the condensate formation,
 
 One well-characterized multivalent system is Nephrin, Nck and NWASP ([Li 2012](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3343696/), [Banjade 2014](https://elifesciences.org/articles/04123)), which form large molecular complexes both in-vitro and in-vivo. 
 
-<img src="../images/NNW-clust.png" width=400>
+<img src="../images/NNW-clust.png" width=300>
 
 Using SpringSaLaDpy, we demonstrate the essential aspects of biomolecular clustering: the cluster size distributions, distance from the membrane, cluster size and radius of gyration over time, etc. 
 
