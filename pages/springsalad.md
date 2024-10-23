@@ -30,6 +30,7 @@ to model mesoscopic particles (diameters of 1 – 10 nm, which could represent a
 protein domain), moderately sized systems (10 – 10,000 particles), and times scales 
 on the order of 1 second, but no actual restriction is set on size or scale of the 
 simulated system.
-<img src="/images/R.png" width=100><img src="/images/L.png" width=100><img src="/images/RL.png" width=200>
+
+<img src="/images/R.png" width=150><img src="/images/L.png" width=150><img src="/images/RL.png" width=150>
 
 
