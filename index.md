@@ -6,7 +6,7 @@ layout: default
 
 ## Python package to run SpringSaLaD, analyze and vizualize its output 
 
-**SaLaDpy** is a lightweight command line interface (CLI) for [SpringSaLaD](springsalad). **SpringSaLaDpy** comes with 
+**SpringSaLaDpy** is a lightweight command line interface (CLI) for [SpringSaLaD](springsalad). **SpringSaLaDpy** comes with 
 - a command line entry point to edit and run SpringSaLaD, and 
 - a library of useful functions for the analysis and visualization of SpringSaLaD outputs.
 
@@ -72,6 +72,8 @@ SpringSaLaDpy computes and plots
 - Cluster radius (the maximum distance between a site and its cluster’s center of mass).
 - Variations in mass coefficients defining distribution of mass, computed as a radius of gyration / maximum radius for a given cluster. For comparison, mass coefficient of a thin spherical shell (where all
   mass is at the periphery) is close to 1, mass coefficient for a solid sphere is square root of 3/5, and if all mass is concentrated in the center then the mass coefficient is 0). One can see that some clusters (in green) demonstrate properties of a solid sphere, while majority of clusters have more mass towards its center.
+  - Radius of gyration of various clusters, depending on the size of the clusters. One can see that for larger clusters radius of gyration is becoming linearly larger.
+  - Average distance of center of mass of identical molecules to the membrane. One can see that Nephrin is bound to the membrane and stays close to it. Meanwhile, as Nck and NWasp are recruited by Nephrin, their center of mass is becoming closer to the membrane.
 
 <table>
   <tr>
@@ -82,39 +84,29 @@ SpringSaLaDpy computes and plots
     <td><a href="images/rad_gyr2.png"><img src="images/rad_gyr2.png" width=250></a></td>    
     <td><a href="images/mass_dist.png"><img src="images/mass_dist.png" width=300></a></td>
   </tr>
+      <tr>
+    <td><a href="images/rad_gyr.png"><img src="images/rad_gyr.png" width=250></a></td>  
+    <td><a href="images/av_dist.png"><img src="images/av_dist.png" width=250></a></td>    
+  </tr>
  </table>
  
+### Cluster properties - bonds saturation
 
-<hr>
+SpringSaLaDpy will analyze and plot the frequency of molecules in clusters with a given number of bonds.
+- The histogram demonstrates the fraction of NWASP moledules that have a certain number of sites being bound. One can see that 45% of all NWASP molecules have 5 bonds, while 22% of MWASP are fully saturated (6 out of 6 sites are bound).
+- The middle plot demonstrate the bound fraction (bound sites / free sites) of sites bound in clusters of all sizes. One can see that most frequently (25%) clusters have 60% of sites being bound, with no clusters having all sites bound, and only 5% of clusters being almost saturated with 90% of sites being bound.
+- The plot on the right is a scatter plot, where each point is a set of clusters of a given size and bound fraction. The color of each point corresponds to the frequency of this cluster type. One can see that the most frequent cluster 
 
-
-MolClustPy will analyze and plot the frequency of molecules in clusters with a given number of bonds. On the left is a plot indicating that almost 48% of all molecules have very weak connectivity (one bond), while there are few molecules that serve as hubs with 3, 4, 5 or even 6 (there are NWasp molecules) bonds. An average molecule has 1.75 bonds. On the right the same cluster distribution is plotted as bound fraction of molecules per cluster size. One can see that large clusters tend to be unique (red dots) while small clusters come in a variety of compositions. What is more important, the bound fraction converges to a fixed value for larger clusters, meansing binding sites are saturated up to 42% maximum.
+Histogram demonstrates that almost 48% of all molecules have very weak connectivity (one bond), while there are few molecules that serve as hubs with 3, 4, 5 or even 6 (there are NWasp molecules) bonds. An average molecule has 1.75 bonds. On the right the same cluster distribution is plotted as bound fraction of molecules per cluster size. One can see that large clusters tend to be unique (red dots) while small clusters come in a variety of compositions. What is more important, the bound fraction converges to a fixed value for larger clusters, meansing binding sites are saturated up to 42% maximum.
 <table>
   <tr>
-    <td><img src="images/bonds_per_molecule.png" width=300></td>
-    <td><img src="images/bound_fraction.png" width=300></td>
+   <td><img src="images/bond_per_nwasp.png" width=250></td>
+    <td><img src="images/clust_bound_hist.png" width=250></td>
+    <td><img src="images/clust_bound_scatt.png" width=250></td>
   </tr>
  </table>
  
-### Molecule-specific properties of clusters
-  
- Apart from the cluster size distribution, it might be useful to know the composition of the clusters with respect to individual molecular types. On the left we plot the relative fraction of each molecular type within a given cluster size. Note that the sum of all molecular fractions for a given cluster size should be equal to one. For large cluster size range, it might be of interest to inspect composition of a list of special clusters - either a set of small clusters (2,4,10 - middle plot), or a set of large clusters (580, 587 - right plot).
- 
- <table>
-  <tr>
-    <td><img src="images/clust_comp1.png" width=200></td>
-    <td><img src="images/clust_comp2.png" width=200></td>
-    <td><img src="images/clust_comp3.png" width=200></td>
-  </tr>
- </table>
-
-Finally, MolClustPy can plot bonds distribution for a specific molecular type, e.g. how cross-linked or saturated Nck molecules are in the system? Each Nck can have 1 to 4 bonds:
-<table>
-  <tr>
-    <td><img src="images/bonds_per_nck.png" width=200></td>
-  </tr>
- </table>
 
 ### Data storage for post-processing
  
-All the simulation outputs (gdat and species files) of NFsim is written to the folder with the same name as the BNGL file. The statistical data generated by MolClustPy and used to plot figures is stored in pyStat folder within the model folder.
+All the simulation outputs are written to the folder .... The statistical data generated by SpringSaLaDpy and used to plot figures is stored in pyStat folder within the model folder.
