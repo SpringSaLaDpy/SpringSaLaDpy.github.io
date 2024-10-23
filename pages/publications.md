@@ -20,7 +20,7 @@ permalink: publications
 
 ### Biological studies where SpringSaLaD and described post-processing were used
 
-* Chattaraj A, Baltaci Z, Chung S, Mayer BJ, Loew LM, Ditlev JA. Measurement of solubility product reveals the interplay of oligomerization and self-association for defining condensate formation. Molecular Biology of the Cell. 2024 Sep 1;35(9):ar122. [PMID:39046778]([https://pubmed.ncbi.nlm.nih.gov/34236318/](https://pubmed.ncbi.nlm.nih.gov/39046778/)
+* Chattaraj A, Baltaci Z, Chung S, Mayer BJ, Loew LM, Ditlev JA. Measurement of solubility product reveals the interplay of oligomerization and self-association for defining condensate formation. Molecular Biology of the Cell. 2024 Sep 1;35(9):ar122. [PMID:39046778](https://pubmed.ncbi.nlm.nih.gov/39046778/)
 
 * Chattaraj, A. and L.M. Loew, The maximum solubility product marks the threshold for condensation of multivalent biomolecules. Biophysical Journal, 2023. 122(9): p. 1678-1690. [PMID:36987392](https://pubmed.ncbi.nlm.nih.gov/36987392/)
 
