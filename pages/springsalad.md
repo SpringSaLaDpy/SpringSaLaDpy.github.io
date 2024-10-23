@@ -6,7 +6,7 @@ permalink: springsalad
 
 # SpringSaLaD software
 
-SpringSaLaD [software](https://vcell.org/ssalad) is built with a 
+[SpringSaLaD](https://www.ncbi.nlm.nih.gov/pubmed/26840718) [software](https://vcell.org/ssalad) is built with a 
 GUI supporting model creation, running simulations, and data collection. 
 It is available for download for Mac, Unix, and Windows platforms. 
 
