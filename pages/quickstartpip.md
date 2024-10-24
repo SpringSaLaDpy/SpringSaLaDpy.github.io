@@ -19,7 +19,6 @@ pip install SpringSaLaDpy
 * Using the terminal, navigate to the working directory and type 
 
  ```python
-import SpringSaLaDpy
 python analysis.py
 ```
 or
