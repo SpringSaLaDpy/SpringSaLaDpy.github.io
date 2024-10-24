@@ -4,7 +4,8 @@ layout: default
 permalink: quickstartpip
 ---
 
-# Use SpringSaLaDpy, not springsaladpy!!!
+# Quickstart Guide for command line Python
+### Use SpringSaLaDpy, not springsaladpy!!!
  
 * Download and install [Anaconda Distribution](https://www.anaconda.com/products/distribution) for Python
 
