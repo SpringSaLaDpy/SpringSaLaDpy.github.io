@@ -43,15 +43,7 @@ python3 ....py
 
 #### Terminal Output and Results
 
-The terminal will ouput this: 
-
-![png](../images/CmdPromptOut.png)
-
-The outputed results will be found in the same location as the bngl file:
-
-![png](../images/ResultsFolder.png)
-
-Simulation output will be stored in .... There are the following outputs: 
+The outputed results will be found in ...  There are the following outputs: 
 
 - aaa
 - bbb
