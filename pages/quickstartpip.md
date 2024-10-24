@@ -11,9 +11,9 @@ permalink: quickstartpip
 * Open terminal and type:
 
 ```python
-pip install molclustpy
+pip install SpringSaLaDpy
 ```
-* Create a working directory - /user/Desktop/molclustpy
+* Create a working directory, e.g. - /user/Desktop/molclustpy
 
 * Download the pair of bngl and python files (For example, EGFR_model.bngl and EGFR_model.py) and place them inside the working directory
 
